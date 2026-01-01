@@ -258,25 +258,46 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Yoga Pose Detection & Correction System",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      "Developed a real-time yoga pose detection and correction system using MediaPipe Pose and machine learning models (CNN, XGBoost, SVM). The application analyzes body posture through webcam input and provides accuracy feedback and corrections. Integrated frontend visualization with backend ML models for an interactive user experience.",
+    image: "/projects/yoga.png",
+    link: "https://github.com/YOUR_USERNAME/yoga-pose-detection",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Real-Time Chat Application",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
+      "Built a full-stack real-time chat application using Node.js, Express, and WebSockets. Implemented features such as user authentication, group chats, message status (seen/delivered), and dynamic UI updates. Designed scalable backend APIs and ensured efficient real-time communication.",
+    image: "/projects/chat.png",
+    link: "https://github.com/SYEDMDSAAD/Chat-S.io",
   },
   {
-    title: "Space Themed Website",
+    title: "Food Reservation System",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
+      "Developed a full-stack food reservation system that allows users to browse restaurants, view menus, and reserve tables in real time. Implemented secure user authentication, booking management, and RESTful APIs using Node.js and Express. Designed an efficient database schema with MongoDB to handle reservations and user data, ensuring a smooth and responsive user experience.",
+    image: "/projects/food.png",
+    link: "https://github.com/YOUR_USERNAME/food-reservation-system",
+  },
+  {
+    title: "E-Commerce Backend System",
+    description:
+      "Designed and developed a scalable backend for an e-commerce platform using Node.js and Express. Implemented product management, user authentication, and payment integration using Razorpay. Ensured secure API handling and efficient database operations.",
+    image: "/projects/ecommerce.png",
+    link: "https://github.com/YOUR_USERNAME/ecommerce-backend",
+  },
+  {
+    title: "Spring Boot Feedback Collector System",
+    description:
+      "Built a feedback collection system using Spring Boot with features like sentiment analysis, rate limiting, CSV export, and admin dashboard. Integrated AWS Comprehend via a microservice for sentiment detection and implemented secure backend architecture.",
+    image: "/projects/feedback.png",
+    link: "https://github.com/YOUR_USERNAME/feedback-app",
+  },
+  {
+    title: "Hospital Management System",
+    description:
+      "Developed a full-stack Hospital Management System to streamline patient, doctor, and appointment management. Implemented features such as patient registration, appointment scheduling, medical record management, and secure authentication using Node.js, Express, and PostgreSQL. Designed RESTful APIs and optimized database queries to ensure efficient data handling and system performance.",
+    image: "/projects/hospital.png",
+    link: "https://github.com/YOUR_USERNAME/hospital-management-system",
   },
 ] as const;
 
