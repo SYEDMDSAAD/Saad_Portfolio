@@ -39,12 +39,6 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React Query",
     image: "reactquery.png",
     width: 80,
@@ -59,18 +53,6 @@ export const SKILL_DATA = [
   {
     skill_name: "Next.js 14",
     image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
     width: 80,
     height: 80,
   },
@@ -144,12 +126,6 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React Query",
     image: "reactquery.png",
     width: 80,
@@ -170,6 +146,30 @@ export const FRONTEND_SKILL = [
 ] as const;
 
 export const BACKEND_SKILL = [
+  {
+    skill_name: "Java",
+    image: "java.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Spring Boot",
+    image: "spring.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "REST API",
+    image: "api.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Socket.io",
+    image: "socket.png",
+    width: 70,
+    height: 70,
+  },
   {
     skill_name: "Node.js",
     image: "node.png",
@@ -206,30 +206,48 @@ export const BACKEND_SKILL = [
     width: 70,
     height: 70,
   },
+] as const;
+
+export const Authentication_SKILL = [
   {
-    skill_name: "Prisma",
-    image: "prisma.png",
+    skill_name: "JWT",
+    image: "jwt.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
+    skill_name: "OAuth",
+    image: "oauth.png",
+    width: 70,
+    height: 70,
   },
 ] as const;
+
+export const DEVOPS_SKILL = [
+  {
+    skill_name: "AWS",
+    image: "aws.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "CI/CD",
+    image: "cicd.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "GitHub Actions",
+    image: "githubactions.png",
+    width: 70,
+    height: 70,
+  }
+] as const; 
 
 export const FULLSTACK_SKILL = [
   {
     skill_name: "React Native",
     image: "reactnative.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    image: "tauri.png",
     width: 70,
     height: 70,
   },
@@ -255,6 +273,24 @@ export const OTHER_SKILL = [
     width: 60,
     height: 60,
   },
+  {
+    skill_name: "Machine Learning",
+    image: "ml.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "OpenCV",
+    image: "opencv.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "MediaPipe",
+    image: "mediapipe.png",
+    width: 70,
+    height: 70,
+  }
 ] as const;
 
 export const PROJECTS = [
