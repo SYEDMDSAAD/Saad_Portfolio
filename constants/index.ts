@@ -208,22 +208,11 @@ export const BACKEND_SKILL = [
   },
 ] as const;
 
-export const Authentication_SKILL = [
-  {
-    skill_name: "JWT",
-    image: "jwt.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "OAuth",
-    image: "oauth.png",
-    width: 70,
-    height: 70,
-  },
-] as const;
-
 export const DEVOPS_SKILL = [
+  
+] as const; 
+
+export const FULLSTACK_SKILL = [
   {
     skill_name: "AWS",
     image: "aws.png",
@@ -233,18 +222,15 @@ export const DEVOPS_SKILL = [
   {
     skill_name: "CI/CD",
     image: "cicd.png",
-    width: 70,
-    height: 70,
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "GitHub Actions",
-    image: "githubactions.png",
+    image: "github.png",
     width: 70,
     height: 70,
-  }
-] as const; 
-
-export const FULLSTACK_SKILL = [
+  },
   {
     skill_name: "React Native",
     image: "reactnative.png",
@@ -267,30 +253,7 @@ export const FULLSTACK_SKILL = [
 ] as const;
 
 export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-  {
-    skill_name: "Machine Learning",
-    image: "ml.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "OpenCV",
-    image: "opencv.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "MediaPipe",
-    image: "mediapipe.png",
-    width: 70,
-    height: 70,
-  }
+  
 ] as const;
 
 export const PROJECTS = [
