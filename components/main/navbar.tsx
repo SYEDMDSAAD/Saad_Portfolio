@@ -40,16 +40,6 @@ export const Navbar = () => {
                 {link.title}
               </Link>
             ))}
-
-            {/* Source Code */}
-            <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
-            >
-              Source Code
-            </Link>
           </div>
         </div>
 
@@ -62,8 +52,7 @@ export const Navbar = () => {
               rel="noreferrer noopener"
               key={name}
             >
-              <Icon className="h-6 w-6 text-white" />
-            </Link>
+              </Link>
           ))}
         </div>
 
@@ -91,15 +80,6 @@ export const Navbar = () => {
                 {link.title}
               </Link>
             ))}
-            <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Source Code
-            </Link>
           </div>
 
           {/* Social Icons */}
@@ -111,7 +91,6 @@ export const Navbar = () => {
                 rel="noreferrer noopener"
                 key={name}
               >
-                <Icon className="h-8 w-8 text-white" />
               </Link>
             ))}
           </div>

@@ -39,6 +39,134 @@ export default function Home() {
           </p>
         </section>
 
+        {/* Research Papers Section */}
+        <section
+          id="research"
+          className="flex flex-col items-center justify-center py-20 px-6 text-white"
+        >
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Research & Publications
+          </h2>
+
+          <div className="max-w-[900px] flex flex-col gap-6 text-gray-300 text-lg">
+
+            {/* Paper 1 */}
+            <div className="border border-[#2A0E61] p-5 rounded-lg hover:shadow-lg transition">
+              <h3 className="text-xl font-semibold text-white">
+                Yoga Pose Detection & Correction using Machine Learning
+              </h3>
+              <p className="mt-2">
+                Proposed a real-time system using MediaPipe Pose and machine learning
+                models (CNN, XGBoost, SVM) to detect and correct yoga postures.
+                Focused on improving accuracy and providing real-time feedback.
+              </p>
+
+              <div className="mt-3 flex gap-4 text-sm">
+                <span className="text-purple-400">Status: Accepted</span>
+
+                <a
+                  href="/Research/paper.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 hover:underline"
+                >
+                  View Paper
+                </a>
+              </div>
+            </div>
+            <div className="border border-[#2A0E61] p-5 rounded-lg hover:shadow-lg transition">
+              <h3 className="text-xl font-semibold text-white">
+                Detection of DoS and DDoS Attacks using Machine Learning and Feature Optimization
+              </h3>
+
+              <p className="mt-2 text-gray-300">
+                This research focuses on detecting Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks using advanced machine learning and deep learning models such as MLP and LSTM. The study incorporates feature selection techniques and tensor-based analysis to improve detection accuracy while reducing computational overhead. Evaluated on benchmark datasets like CIC-IDS2017 and CIC-IDS2018, the proposed approach achieves high performance in terms of accuracy, precision, and recall, making it suitable for real-time intrusion detection systems.
+              </p>
+
+              <div className="mt-3 flex gap-4 text-sm flex-wrap">
+                <span className="text-purple-400">Status: Accepted</span>
+                <span className="text-gray-400">Domain: Cybersecurity / ML</span>
+
+                <a
+                  href="/Research/paper2.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 hover:underline"
+                >
+                  View Paper(Scroll upto page 237)
+                </a>
+              </div>
+            </div>
+
+            {/* Add more papers here if needed */}
+
+          </div>
+        </section>
+
+        {/* Open Source Section */}
+        <section
+          id="opensource"
+          className="flex flex-col items-center justify-center py-20 px-6 text-white"
+        >
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Open Source Contributions
+          </h2>
+
+          <div className="max-w-[900px] flex flex-col gap-6 text-gray-300 text-lg">
+
+            {/* Elasticsearch */}
+            <div className="border border-[#2A0E61] p-5 rounded-lg hover:shadow-lg transition">
+              <h3 className="text-xl font-semibold text-white">
+                Elasticsearch – Open Source Contributor
+              </h3>
+
+              <p className="mt-2">
+                Contributed to a large-scale distributed search and analytics engine by identifying
+                and resolving issues, improving test stability, and enhancing overall reliability.
+                Gained hands-on experience working with production-level systems and complex codebases.
+              </p>
+
+              <ul className="mt-3 list-disc list-inside text-sm text-gray-400 space-y-1">
+                <li>Debugged and resolved integration and test failures in ESQL modules</li>
+                <li>Worked with Gradle-based build systems and CI testing pipelines</li>
+                <li>Improved test stability and reduced flaky test behavior</li>
+                <li>Collaborated using pull requests, code reviews, and issue tracking</li>
+                <li>Gained exposure to distributed systems and performance optimization</li>
+              </ul>
+
+              <div className="mt-3 text-sm text-purple-400">
+                Type: Open Source Contribution
+              </div>
+            </div>
+
+            {/* Apache Lucene */}
+            <div className="border border-[#2A0E61] p-5 rounded-lg hover:shadow-lg transition">
+              <h3 className="text-xl font-semibold text-white">
+                Apache Lucene – Open Source Contributor
+              </h3>
+
+              <p className="mt-2">
+                Explored and contributed to Apache Lucene, the core search library powering Elasticsearch.
+                Gained understanding of indexing, search algorithms, and internal working of inverted indexes
+                used in high-performance search engines.
+              </p>
+
+              <ul className="mt-3 list-disc list-inside text-sm text-gray-400 space-y-1">
+                <li>Worked with core search and indexing concepts</li>
+                <li>Understood inverted index and query execution mechanisms</li>
+                <li>Explored text analysis, tokenization, and scoring techniques</li>
+                <li>Studied internal architecture of search engines</li>
+                <li>Strengthened understanding of information retrieval systems</li>
+              </ul>
+
+              <div className="mt-3 text-sm text-purple-400">
+                Type: Open Source Contribution
+              </div>
+            </div>
+
+          </div>
+        </section>
+
         <Skills />
         <Encryption />
         <Projects />

@@ -71,21 +71,7 @@ export const SKILL_DATA = [
 ] as const;
 
 export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
-  },
+  
 ] as const;
 
 export const FRONTEND_SKILL = [
@@ -258,13 +244,6 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Yoga Pose Detection & Correction System",
-    description:
-      "Developed a real-time yoga pose detection and correction system using MediaPipe Pose and machine learning models (CNN, XGBoost, SVM). The application analyzes body posture through webcam input and provides accuracy feedback and corrections. Integrated frontend visualization with backend ML models for an interactive user experience.",
-    image: "/projects/yoga.png",
-    link: "https://github.com/YOUR_USERNAME/yoga-pose-detection",
-  },
-  {
     title: "Real-Time Chat Application",
     description:
       "Built a full-stack real-time chat application using Node.js, Express, and WebSockets. Implemented features such as user authentication, group chats, message status (seen/delivered), and dynamic UI updates. Designed scalable backend APIs and ensured efficient real-time communication.",
@@ -276,21 +255,21 @@ export const PROJECTS = [
     description:
       "Developed a full-stack food reservation system that allows users to browse restaurants, view menus, and reserve tables in real time. Implemented secure user authentication, booking management, and RESTful APIs using Node.js and Express. Designed an efficient database schema with MongoDB to handle reservations and user data, ensuring a smooth and responsive user experience.",
     image: "/projects/food.png",
-    link: "https://github.com/YOUR_USERNAME/food-reservation-system",
+    link: "https://github.com/SYEDMDSAAD/RestBackend",
   },
   {
-    title: "E-Commerce Backend System",
+    title: "E-Commerce System",
     description:
       "Designed and developed a scalable backend for an e-commerce platform using Node.js and Express. Implemented product management, user authentication, and payment integration using Razorpay. Ensured secure API handling and efficient database operations.",
     image: "/projects/ecommerce.png",
-    link: "https://github.com/YOUR_USERNAME/ecommerce-backend",
+    link: "https://github.com/SYEDMDSAAD/ecommerce-backend",
   },
   {
     title: "Spring Boot Feedback Collector System",
     description:
       "Built a feedback collection system using Spring Boot with features like sentiment analysis, rate limiting, CSV export, and admin dashboard. Integrated AWS Comprehend via a microservice for sentiment detection and implemented secure backend architecture.",
     image: "/projects/feedback.png",
-    link: "https://github.com/YOUR_USERNAME/feedback-app",
+    link: "https://github.com/SYEDMDSAAD/SentimentAnalysis",
   },
   {
     title: "Hospital Management System",
@@ -299,6 +278,13 @@ export const PROJECTS = [
     image: "/projects/hospital.png",
     link: "https://github.com/YOUR_USERNAME/hospital-management-system",
   },
+  {
+    title: "Yoga Pose Detection & Correction System",
+    description:
+      "Developed a real-time yoga pose detection and correction system using MediaPipe Pose and machine learning models (CNN, XGBoost, SVM). The application analyzes body posture through webcam input and provides accuracy feedback and corrections. Integrated frontend visualization with backend ML models for an interactive user experience.",
+    image: "/projects/yoga.png",
+    link: "#",
+  },
 ] as const;
 
 export const FOOTER_DATA = [
@@ -306,19 +292,9 @@ export const FOOTER_DATA = [
     title: "Community",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://github.com/SYEDMDSAAD",
       },
     ],
   },
@@ -326,19 +302,9 @@ export const FOOTER_DATA = [
     title: "Social Media",
     data: [
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
-      {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://www.linkedin.com/in/syed-mohammad-saad-640144213/",
       },
     ],
   },
@@ -346,19 +312,9 @@ export const FOOTER_DATA = [
     title: "About",
     data: [
       {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
         name: "Contact Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:mdsaadsyed29@gmail.com",
       },
     ],
   },
