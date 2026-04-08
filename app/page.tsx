@@ -65,7 +65,7 @@ export default function Home() {
                 <span className="text-purple-400">Status: Accepted</span>
 
                 <a
-                  href="/Research/paper.pdf"
+                  href="/research/paper.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan-400 hover:underline"
@@ -88,7 +88,7 @@ export default function Home() {
                 <span className="text-gray-400">Domain: Cybersecurity / ML</span>
 
                 <a
-                  href="/Research/paper2.pdf"
+                  href="/research/paper2.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-cyan-400 hover:underline"
